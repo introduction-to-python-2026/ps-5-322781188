@@ -55,7 +55,7 @@ def my_solve(equations, coefficients):
         coefficient_values = list()
         for coefficient in coefficients:
             coefficient_values.append(float(solution[coefficient]))
-        return coefficient_values
+    return coefficient_values
 
 
 
