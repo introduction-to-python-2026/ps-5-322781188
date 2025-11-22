@@ -11,9 +11,7 @@ def split_before_each_uppercases(formula):
 
   if current_char:
     res.append(current_char)
-
   return res
-
 
 def split_at_first_digit(formula):
   for i, char in enumerate(formula):
